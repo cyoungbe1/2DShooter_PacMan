@@ -1,0 +1,91 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "2DShooter_PacMan/1.0.0": {
+        "dependencies": {
+          "Microsoft.Identity.Client": "4.47.2",
+          "Newtonsoft.Json": "13.0.1",
+          "Towel": "1.0.40"
+        },
+        "runtime": {
+          "2DShooter_PacMan.dll": {}
+        }
+      },
+      "Microsoft.Identity.Client/4.47.2": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Abstractions": "6.22.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/Microsoft.Identity.Client.dll": {
+            "assemblyVersion": "4.47.2.0",
+            "fileVersion": "4.47.2.0"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Abstractions/6.22.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "assemblyVersion": "6.22.0.0",
+            "fileVersion": "6.22.0.30727"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "Towel/1.0.40": {
+        "runtime": {
+          "lib/net5.0/Towel.dll": {
+            "assemblyVersion": "1.0.40.0",
+            "fileVersion": "1.0.40.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "2DShooter_PacMan/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Identity.Client/4.47.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SPgesZRbXoDxg8Vv7k5Ou0ee7uupVw0E8ZCc4GKw25HANRLz1d5OSr0fvTVQRnEswo5Obk8qD4LOapYB+n5kzQ==",
+      "path": "microsoft.identity.client/4.47.2",
+      "hashPath": "microsoft.identity.client.4.47.2.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Abstractions/6.22.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iI+9V+2ciCrbheeLjpmjcqCnhy+r6yCoEcid3nkoFWerHgjVuT6CPM4HODUTtUPe1uwks4wcnAujJ8u+IKogHQ==",
+      "path": "microsoft.identitymodel.abstractions/6.22.0",
+      "hashPath": "microsoft.identitymodel.abstractions.6.22.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "Towel/1.0.40": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V4KnWC3Du6Mmp+W3EaOQ0Qmc5EII04L4+rRxDq0IQjr3onGdZdaK0yNE9qhhlBp8QJwy7beLBosSdYSVy8Zc+g==",
+      "path": "towel/1.0.40",
+      "hashPath": "towel.1.0.40.nupkg.sha512"
+    }
+  }
+}

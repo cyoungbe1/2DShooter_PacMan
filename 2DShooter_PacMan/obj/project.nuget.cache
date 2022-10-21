@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "PAhYammkiRZDShruXn2AmNsaCaX/YPGETIQfOYKixG4hT+Z6dpmuugcBQEi1yl0cYhJHrePtf7dUsQeBYzhJsw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cyoun\\OneDrive\\Desktop\\SD725 Backup\\2DShooter_PacMan\\2DShooter_PacMan\\2DShooter_PacMan\\2DShooter_PacMan.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cyoun\\.nuget\\packages\\microsoft.identity.client\\4.47.2\\microsoft.identity.client.4.47.2.nupkg.sha512",
+    "C:\\Users\\cyoun\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.22.0\\microsoft.identitymodel.abstractions.6.22.0.nupkg.sha512",
+    "C:\\Users\\cyoun\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\cyoun\\.nuget\\packages\\towel\\1.0.40\\towel.1.0.40.nupkg.sha512"
+  ],
+  "logs": []
+}
