@@ -129,7 +129,6 @@ int OriginalWindowWidth = Console.WindowWidth;
 int OriginalWindowHeight = Console.WindowHeight;
 ConsoleColor OriginalBackgroundColor = Console.BackgroundColor;
 ConsoleColor OriginalForegroundColor = Console.ForegroundColor;
-
 char[,] Dots;
 int Score;
 (int X, int Y) PacManPosition;
@@ -158,8 +157,10 @@ NextRound:
 Console.Clear();
 SetUpDots();
 PacManPosition = (20, 17);
+Console.SetCursorPosition(0, 28);
+Console.WriteLine("Use Arrow Keys to direct PacMan");
 
-Ghost a = new();
+    Ghost a = new();
 a.Position = a.StartPosition = (16, 10);
 a.Color = ConsoleColor.Red;
 a.FramesToUpdate = 6;
@@ -212,6 +213,7 @@ RenderScore();
 RenderDots();
 RenderPacMan();
 RenderGhosts();
+
 foreach (Ghost ghost in Ghosts)
 {
 if (ghost.Position == PacManPosition)
@@ -650,6 +652,8 @@ enum Direction
     Left = 2,
     Right = 3,
 }
+
+
 
 
 
